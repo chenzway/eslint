@@ -225,7 +225,6 @@ module.exports = {
       }
     ],
     'space-before-blocks': [2, 'always'],
-    // 'space-before-function-paren': [2, 'always'],
     'space-before-function-paren': [
       'error',
       {
