@@ -225,14 +225,15 @@ module.exports = {
       }
     ],
     'space-before-blocks': [2, 'always'],
-    'space-before-function-paren': [
+    'space-before-function-paren': [0, 'naever'],
+    /* 'space-before-function-paren': [
       'error',
       {
         anonymous: 'always',
         named: 'never',
         asyncArrow: 'always'
       }
-    ],
+    ], */
     'space-in-parens': [2, 'never'],
     'space-infix-ops': 2,
     'space-unary-ops': [
@@ -246,15 +247,7 @@ module.exports = {
       2,
       'always',
       {
-        markers: [
-          'global',
-          'globals',
-          'eslint',
-          'eslint-disable',
-          '*package',
-          '!',
-          ','
-        ]
+        markers: ['global', 'globals', 'eslint', 'eslint-disable', '*package', '!', ',']
       }
     ],
     'template-curly-spacing': [2, 'never'],
