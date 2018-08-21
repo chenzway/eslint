@@ -258,13 +258,14 @@ module.exports = {
     yoda: [2, 'never'],
     'prefer-const': 0,
     'no-debugger': process.env.NODE_ENV === 'production' ? 2 : 0,
-    'object-curly-spacing': [
+    /* 'object-curly-spacing': [
       2,
       'always',
       {
         objectsInObjects: false
       }
-    ],
+    ], */
+    'object-curly-spacing': [0, 'never'],
     'array-bracket-spacing': [2, 'never']
   }
 };
