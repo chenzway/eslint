@@ -257,7 +257,7 @@ module.exports = {
     ],
     "semi": [
       2,
-      "always"
+      "never"
     ],
     "semi-spacing": [
       2,
